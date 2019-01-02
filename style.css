@@ -1,0 +1,138 @@
+*	{margin: 0;padding: 0;}
+body{background: #927394;}
+header{width: 100%}
+header nav {width: 90%;
+max-width:1000px; margin: 20px auto;background:#540259; }
+.menubar{
+	display: none;
+}
+header nav ul {overflow: hidden; list-style: none;
+text-align:center;margin: 0 0 0 10%;}
+header nav ul li {
+	float:left;
+
+
+}
+.contenido{
+	margin: 0	20%
+}
+h3 {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+section p {font-size:19px ;text-align: left;
+}
+section h1 {font-size:25px;
+font-weight: bold;
+    margin-bottom: 40px;
+text-align: center;
+}
+header nav ul li a {
+	color:#fff;
+	padding: 20px;
+	display: block;
+	text-decoration: none;
+}
+header nav ul li span{
+	margin-right: 10px
+}
+header nav p span{margin-right: 10px}
+header nav p {
+    font-size: 22px;
+    margin-top: 2%;
+        padding-right: 5px;
+    color: #77D249;}
+
+header nav ul li a:hover {
+	background: #8F649A;
+}
+.active {
+	background: #8F649A;
+	cursor:default;
+}
+section{
+	text-align:center;padding: 20px}
+
+
+footer {
+
+	    text-align: center;
+  
+
+ 
+       font-size: 14px;
+    
+   margin: 7% 8% 3px;
+
+}
+footer a,a:link,a:visited {
+
+	text-decoration: none;
+	color:#fff;
+}
+
+@media	screen and (max-width: 800px){
+header nav {
+	width: 60%;
+	height: 100%;
+	left: -100%;
+	margin: 0;
+	position: fixed;
+
+}
+section h1 { font-size: 15px;margin-top:40px; }
+
+
+
+header nav ul li {display: block;
+float: none; border-bottom: 1px solid rgba(255, 255, 255, .3);}
+
+.menubar{
+	display: block;	
+	width: 100%;
+	background:#ccc	;
+	
+}
+header{position: fixed;}
+section{    padding-top: 15%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.menubar .bt{	
+display: block; 
+padding:20px ;
+background:#540259;
+color: #fff;
+text-decoration: none;
+font-weight: bold;
+font-size: 25px;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+.menubar span{
+float: right;
+font-size:  40px;
+}
+section h1 {
+   
+ 
+  
+    font-size: 23px;
+}
+h3 {
+  
+    font-size: 20px;
+
+}
+header nav p {
+  
+    padding: 16px; }
+
+    footer{margin: 0 0 0 0;}
+.contenido{
+	margin: 0	0%
+}
+}
